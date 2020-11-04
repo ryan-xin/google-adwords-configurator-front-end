@@ -34,6 +34,7 @@ const Keywords = () => {
   };
   
   const handleClear = (index) => {
+    // TODO:
     let currentKeywords = [...keywords];
     currentKeywords.splice(index, 1);
     setKeywords(currentKeywords);
